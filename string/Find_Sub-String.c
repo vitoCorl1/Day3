@@ -2,7 +2,7 @@
 #include<string.h>
 
 int main(){
-    char str[] = "ayne is the best :)ma";
+    char str[] = "ayne is the best :)";
     char str1[] = "ma";
     for(int i = 0; str[i] != '\0'; i++){
         if(strstr(str, str1) != NULL){
